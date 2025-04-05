@@ -26,6 +26,7 @@
   "weapons": [
     {
       "name": "flyer-weapon",
+      "layer": "flyer_weapon",
       "shootCone": 15,
       "mirror": false,
       "alternate": false,
@@ -79,6 +80,7 @@
     },
     {
       "name": "left-side-weapon",
+      "layer": "side_weapon",
       "shootCone": 15,
       "mirror": false,
       "alternate": false,
@@ -126,6 +128,7 @@
     },
     {
       "name": "right-side-weapon",
+      "layer": "side_weapon",
       "shootCone": 15,
       "mirror": false,
       "alternate": false,
@@ -173,6 +176,7 @@
     },
     {
       "name": "left-inner-side-weapon",
+      "layer": "inner_side_weapon",
       "shootCone": 15,
       "mirror": false,
       "alternate": false,
@@ -220,6 +224,7 @@
     },
     {
       "name": "right-inner-side-weapon",
+      "layer": "inner_side_weapon",
       "shootCone": 15,
       "mirror": false,
       "alternate": false,

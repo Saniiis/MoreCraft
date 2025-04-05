@@ -1,7 +1,7 @@
 {
   "type": "LaserTurret",
   "name": "burner",
-  "description": "стреляет тонким мощным лучом на большое расстояние",
+  "description": "стреляет тонким мощным лучом на большое расстояние turret with the best shoot sound ever",
   "size": 5,
   "health": 3000,
   "reload": 400,
@@ -23,7 +23,7 @@
   "shootShake": 6,
   "firingMoveFract": 0.5,
   "shootDuration": 800,
-  "shootSound": "laserbig",
+  "shootSound": "burner-shot",
   "loopSound": "beam",
   "loopSoundVolume": 3.5,
   "recoilAmount": 8.5,
