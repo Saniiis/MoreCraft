@@ -1,0 +1,37 @@
+{
+  "type": "GenericCrafter",
+  "name": "Silicon Giant Melter",
+  "description": "делает очень много кремния, используя энергию от взрывов",
+  "health": 600,
+  "size": 4,
+  "requirements": [
+    { "item": "copper", "amount": 1200}
+    { "item": "thorium", "amount": 350}
+    { "item": "titanium", "amount": 500}
+    { "item": "silicon", "amount": 650}
+	{ "item": "plastanium", "amount": 75}
+	{ "item": "surge-alloy", "amount": 25}
+	{ "item": "metaglass", "amount": 75}
+  ],
+  "research": "silicon-crucible",
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": false,
+  "craftTime": 30,
+  "consumes": {
+    "power": 14,
+    "items": {
+      "items": [
+        { "item": "coal", "amount": 5}
+        { "item": "blast-compound", "amount": 1}
+        { "item": "sand", "amount": 10}
+		{ "item": "pyratite", "amount": 2}
+      ]
+    }
+  },
+  "updateEffect": "redgeneratespark",
+  "category": "crafting",
+  "idleSoundVolume": 3,
+  "itemCapacity": 70,
+  "outputItem": { "item": "silicon", "amount": 20}
+}

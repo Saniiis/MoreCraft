@@ -1,0 +1,32 @@
+{
+  "type": "GenericCrafter",
+  "name": "Bottle assembler",
+  "description": "создает бутылки из метастекла",
+  "health": 600,
+  "size": 2,
+  "requirements": [
+    { "item": "copper", "amount": 60 },
+	{ "item": "lead", "amount": 50 },
+	{ "item": "graphite", "amount": 30},
+  ],
+  "research": "kiln",
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": false,
+  "craftTime": 40,
+  "consumes": {
+    "power": 4,
+    "items": {
+      "items": [
+        { "item": "metaglass", "amount": 3 },
+      ]
+    }
+  },
+  "updateEffect": "smeltsmoke",
+  "craftEffect": "smeltsmoke",
+  "idleSound": "respawning",
+  "idleSoundVolume": 3,
+  "itemCapacity": 70,
+  "outputItem": { "item": "glass-bottle", "amount": 3 },
+  "category": "crafting"
+}

@@ -1,0 +1,110 @@
+{
+  "type": "ItemTurret",
+  "name": "THUNDERSHOT",
+  "health": 3000,
+  "size": 8,
+  "category": "turret",
+  "reload": 200,
+  "range": 1000,
+  "inaccuracy": 0,
+  "shots": 1,
+  "rotateSpeed": 1,
+  "requirements": [
+    { "item": "surge-alloy", "amount": 1000 },
+    { "item": "thorium", "amount": 7000 },
+    { "item": "silicon", "amount": 10000 },
+    { "item": "crystall", "amount": 4000 },
+    { "item": "super-alloy", "amount": 1500 },
+    { "item": "plastanium", "amount": 2000 },
+    { "item": "mix-bottle", "amount": 500 },
+    { "item": "slag-bottle", "amount": 1500 },
+    { "item": "oil-bottle", "amount": 900 },
+    { "item": "cryo-bottle", "amount": 1200 },
+    { "item": "water-bottle", "amount": 1100 }
+  ],
+  "ammoTypes": {
+    "thorium": {
+      "type": "BasicBulletType",
+      "speed": 20,
+      "damage": 4000,
+      "width": 30,
+      "height": 100,
+      "lifetime": 50,
+      "knockback": 20,
+      "trailLength": 20,
+      "trailWidth": 4,
+      "trailColor": "ff66b2",
+      "frontColor": "ff66b2",
+      "backColor": "cc3385"
+    },
+    "super-alloy": {
+      "type": "BasicBulletType",
+      "speed": 20,
+      "damage": 10000,
+      "width": 40,
+      "height": 120,
+      "lifetime": 50,
+      "knockback": 20,
+      "trailLength": 20,
+      "trailWidth": 5,
+      "trailColor": "8000ff",
+      "frontColor": "8000ff",
+      "backColor": "400080"
+    },
+    "mix-bottle": {
+      "type": "BasicBulletType",
+      "speed": 20,
+      "damage": 30000,
+      "width": 40,
+      "height": 180,
+      "lifetime": 50,
+      "knockback": 30,
+      "trailLength": 25,
+      "trailWidth": 6,
+      "trailColor": "7a00ff",
+      "frontColor": "7a00ff",
+      "backColor": "3d007f"
+    },
+    "blast-compound": {
+      "type": "BasicBulletType",
+      "speed": 19,
+      "damage": 6000,
+      "width": 40,
+      "height": 120,
+      "lifetime": 50,
+      "knockback": 5,
+      "trailLength": 20,
+      "trailWidth": 5,
+      "trailColor": "ff0000",
+      "frontColor": "ff0000",
+      "backColor": "800000"
+    },
+    "crystall": {
+      "type": "BasicBulletType",
+      "speed": 20,
+      "damage": 7000,
+      "width": 36,
+      "height": 80,
+      "lifetime": 50,
+      "knockback": 6,
+      "trailLength": 20,
+      "trailWidth": 4,
+      "trailColor": "ff007f",
+      "frontColor": "ff007f",
+      "backColor": "800040"
+    }
+  },
+  "targetAir": true,
+  "targetGround": true,
+  "consumePower": false,
+  "consumes": {
+    "coolant": {
+      "amount": 1.0
+    }
+  },
+  "coolantMultiplier": 0.1,
+  "shootShake": 10,
+  "reloadTime": 200,
+  "rotateSpeed": 1,
+  "recoil": 5
+}

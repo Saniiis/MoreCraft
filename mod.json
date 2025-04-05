@@ -1,0 +1,13 @@
+{
+  "name": "morecraft",
+  "displayName": "MoreCraft",
+  "author": "saniiis",
+  "description": "[yellow]this mod adds a lot [purple]of new blocks and items",
+  "version": "1.9a",
+  "minGameVersion": "146",
+  "dependencies": [],
+  "content": [
+    "content/turrets/beamTurret.json",
+    "content/effects/customLaserHit.json"
+  ]
+}
