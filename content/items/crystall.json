@@ -1,0 +1,12 @@
+{
+ "type": "material",
+ "name": "Crystall",
+ "description": "Крайне прочный и радоактивный материал",
+ "color": "fa0ab6",
+ "explosiveness": 0f,
+ "flammability": 0f,
+ "radioactivity": 1f,
+ "hardness": 4,
+ "cost": 3f,
+ "alwaysUnlocked": false
+}

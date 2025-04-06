@@ -1,0 +1,50 @@
+{
+  "type": "mech",
+  "name": "warrior",
+  "flying": false,
+  "speed": 0.6,
+  "accel": 0.05,
+  "drag": 0.3,
+  "health": 4000,
+  "armor": 10,
+  "hitSize": 96,
+  "itemCapacity": 30,
+  "engineSize": 0,
+  "faceTarget": true,
+  "legs": {
+    "type": "legs",
+    "legCount": 4,
+    "legMoveSpace": 0.7,
+    "legLength": 39,
+    "legBaseOffset": 15,
+    "legTrns": 0.6,
+    "legSpeed": 0.17,
+    "legTexture": "Leg" 
+  },
+  "weapons": [
+    {
+      "name": "spider-laser",
+      "reload": 30,
+      "mirror": true,
+      "x": 18,
+      "y": 0,
+      "shootSound": "laser",
+      "bullet": {
+        "type": "LaserBulletType",
+        "damage": 60,
+        "length": 80,
+        "width": 6,
+        "lifetime": 16,
+        "colors": ["#aa00ff", "#6600cc", "#330066"]
+      }
+    }
+  ],
+  "research": {
+    "parent": "super-factory",
+    "requirements": [
+      "super-alloy/100",
+      "silicon/200",
+      "surge-alloy/150"
+    ]
+  }
+}

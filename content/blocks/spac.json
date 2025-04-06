@@ -1,0 +1,13 @@
+{
+ "type": "Conveyor",
+ "name": "Super conveyor", 
+ "description": "невероятно быстрый конвеер",
+ "health": 800, 
+ "requirements": [
+  {"item": "surge-alloy", "amount": 4}
+  {"item": "super-alloy", "amount": 1}
+ ],
+ "speed": 0.2,
+ "research": "router",
+ "category": "distribution"
+}

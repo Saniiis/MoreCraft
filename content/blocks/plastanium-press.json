@@ -1,0 +1,35 @@
+{
+  "type": "GenericCrafter",
+  "name": "plastanium press",
+  "description": "Завод, перерабатывающий пиратит, нефть и титан в пластан.",
+  "health": 350,
+  "size": 3,
+  "requirements": [
+    { "item": "copper", "amount": 200 },
+    { "item": "thorium", "amount": 80 },
+    { "item": "titanium", "amount": 100 },
+    { "item": "silicon", "amount": 150 }
+  ],
+  "research": "spore-press",
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": true,
+  "craftTime": 60,
+  "consumes": {
+    "power": 8,
+    "items": {
+      "items": [
+        { "item": "titanium", "amount": 3 }
+		{ "item": "pyratite", "amount": 3 }
+      ]
+    },
+    "liquids": [
+      { "liquid": "oil", "amount": 0.3}
+    ]
+  },
+  "updateEffect": "melting",
+  "category": "crafting",
+  "idleSoundVolume": 0.9,
+  "itemCapacity": 30,
+  "outputItem": {"item":"plastanium","amount":3}
+}
