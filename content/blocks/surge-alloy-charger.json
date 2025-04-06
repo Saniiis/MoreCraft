@@ -1,0 +1,40 @@
+{
+  "type": "GenericCrafter",
+  "name": "Surge charger",
+  "description": "Создает больше кинетического сплава",
+  "health": 600,
+  "size": 4,
+  "requirements": [
+    { "item": "copper", "amount": 1200 },
+    { "item": "thorium", "amount": 350 },
+    { "item": "titanium", "amount": 500 },
+    { "item": "silicon", "amount": 650 },
+    { "item": "plastanium", "amount": 125 },
+    { "item": "surge-alloy", "amount": 85 },
+    { "item": "slag-bottle", "amount": 75 },
+    { "item": "lead", "amount": 1000 },
+    { "item": "crystall", "amount": 100 }
+  ],
+  "research": "alloy-smelter",
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": false,
+  "craftTime": 600,
+  "consumes": {
+    "power": 13,
+    "items": {
+      "items": [
+        { "item": "silicon", "amount": 6 }
+		{ "item": "slag-bottle", "amount": 4}
+		{ "item": "pyratite", "amount": 1}
+      ]
+    }
+  },
+  "updateEffect": "hitMeltdown",
+  "craftEffect": "hitMeltdown",
+  "idleSound": "pulse",
+  "idleSoundVolume": 2,
+  "itemCapacity": 50,
+  "outputItem": { "item": "surge-alloy", "amount": 10 },
+  "category": "crafting"
+}

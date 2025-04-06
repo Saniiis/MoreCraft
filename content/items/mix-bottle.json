@@ -1,0 +1,12 @@
+{
+ "type": "material",
+ "name": "Multi-bottle",
+ "description": "бутылка смеси из всех жидкостей",
+ "color": "be0aff",
+ "explosiveness": 0.1f,
+ "flammability": 0.3f,
+ "radioactivity": 0.5f,
+ "hardness": 3,
+ "cost": 3f,
+ "alwaysUnlocked": false
+}

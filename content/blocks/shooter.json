@@ -1,0 +1,83 @@
+{
+    "type": "ItemTurret",
+    "name": "shooter",
+    "health": 200,
+    "size": 2,
+    "category": "turret",
+    "reload": 15,
+    "range": 200,
+    "inaccuracy": 3,
+    "shots": 228,
+    "rotateSpeed": 3,
+    "requirements": [
+        { "item": "crystall", "amount": 50 },
+        { "item": "silicon", "amount": 250 },
+        { "item": "thorium", "amount": 150 },
+        { "item": "metaglass", "amount": 100 },
+        { "item": "plastanium", "amount": 30 },
+        { "item": "water-bottle", "amount": 200 }
+    ],
+    "ammoTypes": {
+        "copper": {
+            "type": "BasicBulletType",
+            "speed": 4,
+            "damage": 20,
+            "width": 3,
+            "height": 5,
+            "lifetime": 52,
+            "knockback": 1,
+            "frontColor": "ffcc00",
+            "backColor": "ff6600",
+            "trailLength": 10,
+            "trailWidth": 1,
+            "lightColor": "ffaa00",
+            "lightRadius": 1,
+            "trailColor": "ffaa00"
+        },
+        "glass-bottle": {
+            "type": "BasicBulletType",
+            "speed": 4,
+            "damage": 40,
+            "width": 5,
+            "height": 10,
+            "lifetime": 52,
+            "knockback": 5,
+            "frontColor": "e8e8e8",
+            "backColor": "e8e8e8",
+            "trailLength": 10,
+            "trailWidth": 1,
+            "lightColor": "e8e8e8",
+            "lightRadius": 1,
+            "trailColor": "e8e8e8"
+        },
+        "crystall": {
+            "type": "BasicBulletType",
+            "speed": 4,
+            "damage": 60,
+            "width": 5,
+            "height": 10,
+            "lifetime": 52,
+            "knockback": 5,
+            "frontColor": "9a02d1",
+            "backColor": "9a02d1",
+            "trailLength": 10,
+            "trailWidth": 1,
+            "lightColor": "9a02d1",
+            "lightRadius": 1,
+            "trailColor": "9a02d1"
+        },
+    },
+    "targetAir": true,
+    "targetGround": true,
+    "consumePower": false,
+    "consumes": {
+        "coolant": {
+            "amount": 1.0 
+        }
+    },
+    "coolantMultiplier": 0.3,  
+    "shootShake": 1,
+    "rotateSpeed": 4
+}
+
+

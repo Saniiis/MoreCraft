@@ -1,0 +1,12 @@
+{
+ "type": "material",
+ "name": "Slag bottle",
+ "description": "бутылка шлака",
+ "color": "faa628",
+ "explosiveness": 0f,
+ "flammability": 0.3f,
+ "radioactivity": 0f,
+ "hardness": 1,
+ "cost": 1f,
+ "alwaysUnlocked": false
+}

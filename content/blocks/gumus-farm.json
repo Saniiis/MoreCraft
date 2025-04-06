@@ -1,0 +1,30 @@
+{
+  "type": "GenericCrafter",
+  "name": "Spore farm",
+  "description": "теплица для споровых стручков, требует воду",
+  "health": 350,
+  "size": 3,
+  "requirements": [
+    { "item": "copper", "amount": 600 },
+    { "item": "thorium", "amount": 80 },
+    { "item": "titanium", "amount": 100 },
+    { "item": "silicon", "amount": 400 },
+    { "item": "plastanium", "amount": 75 }
+  ],
+  "research": "spore-press",
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": true,
+  "craftTime": 30,
+"consumes": {
+    "power": 8,
+    "liquids": [
+      { "liquid": "water", "amount": 0.6}
+	]
+  },
+  "updateEffect": "smeltsmoke",
+  "category": "crafting",
+  "idleSoundVolume": 0.9,
+  "itemCapacity": 30,
+  "outputItem": { "item": "spore-pod", "amount": 1 }
+}

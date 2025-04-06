@@ -1,0 +1,88 @@
+{
+  "type": "GenericCrafter",
+  "name": "Cooler",
+  "description": "очень сильно улучшает криогенную жидкость",
+  "health": 1200,
+  "size": 6,
+  "requirements": [
+    { "item": "copper", "amount": 3000 },
+    { "item": "thorium", "amount": 800 },
+    { "item": "titanium", "amount": 900 },
+    { "item": "mix-bottle", "amount": 30 },
+    { "item": "silicon", "amount": 1000 }
+  ],
+  "research": "nucelar-kiln",
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": true,
+  "craftTime": 30,
+  "consumes": {
+    "power": 20,
+    "items": {
+      "items": [
+        { "item": "titanium", "amount": 5 },
+        { "item": "mix-bottle", "amount": 3 },
+        { "item": "cryo-bottle", "amount": 4 }
+      ]
+    },
+    "liquids": [
+      { "liquid": "turret-oil", "amount": 0.1 },
+      { "liquid": "cryofluid", "amount": 0.5 }
+    ]
+  },
+  "updateEffect": "freezing",
+  "category": "crafting",
+  "idleSoundVolume": 0.9,
+  "itemCapacity": 30,
+  "outputLiquids": [
+    {
+      "liquid": "cool-cryo",
+      "amount": 0.1
+    }
+  ],
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawParticles",
+        "color": "66CCFFFF",
+        "alpha": 0.8,
+        "blending": "additive",
+        "particleSize": 4,
+        "particleRad": 20,
+        "particles": 150,
+        "fadeMargin": 1,
+        "particleLife": 80
+      },
+      {
+        "type": "DrawParticles",
+        "color": "99DDFFFF",
+        "alpha": 0.6,
+        "blending": "additive",
+        "particleSize": 6,
+        "particleRad": 15,
+        "particles": 210,
+        "fadeMargin": 1,
+        "particleLife": 100
+      },
+      {
+        "type": "DrawParticles",
+        "color": "BBEEFFFF",
+        "alpha": 0.5,
+        "blending": "additive",
+        "particleSize": 8,
+        "particleRad": 18,
+        "particles": 180,
+        "fadeMargin": 1,
+        "particleLife": 120
+      },
+      {
+        "type": "DrawDefault"
+      }
+    ]
+  }
+}

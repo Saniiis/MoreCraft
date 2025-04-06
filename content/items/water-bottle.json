@@ -1,0 +1,12 @@
+{
+ "type": "material",
+ "name": "Water bottle",
+ "description": "бутылка воды",
+ "color": "a0d4fa",
+ "explosiveness": 0f,
+ "flammability": 0f,
+ "radioactivity": 0f,
+ "hardness": 1,
+ "cost": 1f,
+ "alwaysUnlocked": false
+}
