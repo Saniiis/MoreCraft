@@ -1,0 +1,28 @@
+{
+  "name": "Super Drill",
+  "description": "невероятно эффективная буровая установка",
+  "type": "Drill",
+  "size": 6,
+  "tier": 6,
+  "itemCapacity": 50,
+  "drillTime": 200,
+  "consumes": {
+    "power": 13,
+    "liquid": {
+      "liquid": "turret-oil",
+      "amount": 0.05,
+      "booster": true,
+      "optional": true
+    }
+  },
+  "liquidBoostIntensity": 1.5,
+  "requirements": [
+    { "item": "super-alloy", "amount": 20},
+    { "item": "silicon", "amount": 200},
+    { "item": "surge-alloy", "amount": 80},
+    { "item": "titanium", "amount": 500},
+    { "item": "graphite", "amount": 30}
+  ],
+  "category": "production",
+  "research": "laser-drill"
+}
