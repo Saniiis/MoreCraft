@@ -36,6 +36,6 @@
   "idleSound": "respawning",
   "idleSoundVolume": 3,
   "itemCapacity": 70,
-  "outputItem": { "item": "super-alloy", "amount": 1 },
+  "outputItem": { "item": "super-alloy", "amount": 5},
   "category": "crafting"
 }

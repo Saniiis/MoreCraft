@@ -6,7 +6,7 @@ Adds powerful tech based on [[]#ffdd00]Surge Alloy[] and [[]#aa00ff]Super Alloy[
 
 Includes new turrets, blocks, effects and more.
 '''
-version: "[[]#aaaaaa]2.1b"
+version: "[[]#aaaaaa]2.2a"
 minGameVersion: "146"
 dependencies: []
 icon: "icon.png"

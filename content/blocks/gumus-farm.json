@@ -26,5 +26,5 @@
   "category": "crafting",
   "idleSoundVolume": 0.9,
   "itemCapacity": 30,
-  "outputItem": { "item": "spore-pod", "amount": 1 }
+  "outputItem": { "item": "spore-pod", "amount": 3 }
 }

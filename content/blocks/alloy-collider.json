@@ -2,7 +2,7 @@
   "type": "GenericCrafter",
   "name": "Alloy collider",
   "description": "смешивает из сырых материалов огромное количество ценных ресурсов",
-  "health": 900,
+  "health": 5000,
   "size": 12,
   "requirements": [
     { "item": "crystall", "amount": 800},
@@ -21,7 +21,7 @@
   "hasPower": true,
   "hasItems": true,
   "hasLiquids": true,
-  "craftTime": 1000,
+  "craftTime": 700,
   "consumes": {
     "power": 30,
     "items": {
@@ -40,7 +40,7 @@
     "liquids": [
       { "liquid": "water", "amount": 0.5 },
       { "liquid": "oil", "amount": 0.2 },
-      { "liquid": "turret-oil", "amount": 0.3 }
+      { "liquid": "turret-oil", "amount": 0.15}
     ]
   },
   "updateEffect": "padlaunch",
@@ -48,9 +48,9 @@
   "idleSoundVolume": 10,
   "itemCapacity": 100,
   "outputItems": [
-    { "item": "super-alloy", "amount": 5 },
-    { "item": "surge-alloy", "amount": 10 },
-    { "item": "mix-bottle", "amount": 1 },
-    { "item": "crystall", "amount": 4}
+    { "item": "super-alloy", "amount": 20},
+    { "item": "surge-alloy", "amount": 50 },
+    { "item": "mix-bottle", "amount": 5},
+    { "item": "crystall", "amount": 30}
   ]
 }

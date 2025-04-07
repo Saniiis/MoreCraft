@@ -37,7 +37,7 @@
   "outputLiquids": [
     {
       "liquid": "cool-cryo",
-      "amount": 0.1
+      "amount": 0.5
     }
   ],
   "drawer": {
