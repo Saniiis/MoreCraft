@@ -2,7 +2,7 @@
   "type": "UnitFactory",
   "name": "Super-factory",
   "researchCostMultiplier": 0.3,
-  "size": 15,
+  "size": 10,
   "consumes": {
     "power": 5
   },
@@ -18,15 +18,18 @@
       ],
       "time": 10000
     },
-    {
-      "unit": "warrior", 
+	{
+      "unit": "titan", 
       "requirements": [
-        { "item": "silicon", "amount": 3000 },
-        { "item": "super-alloy", "amount": 500 },
+        { "item": "silicon", "amount": 8000 },
+		{ "item": "plastanium", "amount": 3000 },
+		{ "item": "mix-bottle", "amount": 400},
+		{ "item": "phase-fabric", "amount": 2500},
+        { "item": "super-alloy", "amount": 800 },
         { "item": "surge-alloy", "amount": 1200 },
-        { "item": "graphite", "amount": 800 }
+        { "item": "graphite", "amount": 5000}
       ],
-      "time": 9000
+      "time": 30000
     }
   ],
   "requirements": [
@@ -35,5 +38,5 @@
     { "item": "super-alloy", "amount": 200 }
   ],
   "category": "units",
-  "research": "router"
+  "research": "tetrative-reconstructor"
 }

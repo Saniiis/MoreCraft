@@ -1,0 +1,29 @@
+{
+  "type": "GenericCrafter",
+  "name": "Titanium press",
+  "description": "спрессовывает шлак в титан",
+  "health": 450,
+  "size": 3,
+  "requirements": [
+    { "item": "copper", "amount": 120},
+    { "item": "titanium", "amount": 70},
+	{ "item": "lead", "amount": 300},
+    { "item": "silicon", "amount": 20 }
+  ],
+  "research": "slag-press",
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": true,
+  "craftTime": 40,
+  "consumes": {
+    "power": 3,
+    "liquids": [
+      { "liquid": "slag", "amount": 0.2}
+    ]
+  },
+  "updateEffect": "melting",
+  "category": "crafting",
+  "idleSoundVolume": 0.9,
+  "itemCapacity": 30,
+  "outputItem": {"item":"titanium","amount":3}
+}

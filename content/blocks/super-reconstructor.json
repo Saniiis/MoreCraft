@@ -1,0 +1,39 @@
+{
+  "type": "Reconstructor",
+  "name": "super reconstructor",
+  "size": 15,
+  "constructTime": 20000,
+  "consumes": {
+    "power": 38
+	"items": {
+      "items": [
+        { "item": "titanium", "amount": 2000}
+		{ "item": "metaglass", "amount": 2000}
+		{ "item": "surge-alloy", "amount": 1900}
+		{ "item": "super-alloy", "amount": 2000}
+		{ "item": "phase-fabric", "amount": 2000}
+		{ "item": "graphite", "amount": 4000}
+		{ "item": "silicon", "amount": 5000}
+		{ "item": "crystall", "amount": 3000}
+		{ "item": "thorium", "amount": 2000}
+		{ "item": "mix-bottle", "amount": 500}
+      ]
+    },
+    "liquids": [
+      { "liquid": "turret-oil", "amount": 0.1}
+    ]
+  },
+  "requirements": [
+    { "item": "plastanium", "amount": 1200},
+    { "item": "silicon", "amount": 6000},
+    { "item": "super-alloy", "amount": 1500},
+    { "item": "mix-bottle", "amount": 300},
+    { "item": "copper", "amount": 15000},
+    { "item": "surge-alloy", "amount": 3200}
+  ],
+  "category": "units",
+  "research": "super-factory",
+  "upgrades": [
+    ["flyer", "warrior"]
+  ]
+}

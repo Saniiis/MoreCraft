@@ -1,0 +1,29 @@
+{
+  "type": "GenericCrafter",
+  "name": "lead press",
+  "description": "спрессовывает шлак в свинец",
+  "health": 350,
+  "size": 2,
+  "requirements": [
+    { "item": "copper", "amount": 120},
+    { "item": "titanium", "amount": 70},
+	{ "item": "lead", "amount": 300},
+    { "item": "silicon", "amount": 20 }
+  ],
+  "research": "slag-press",
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": true,
+  "craftTime": 40,
+  "consumes": {
+    "power": 2,
+    "liquids": [
+      { "liquid": "slag", "amount": 0.2}
+    ]
+  },
+  "updateEffect": "melting",
+  "category": "crafting",
+  "idleSoundVolume": 0.9,
+  "itemCapacity": 30,
+  "outputItem": {"item":"lead","amount":3}
+}

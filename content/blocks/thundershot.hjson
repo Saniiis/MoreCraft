@@ -106,4 +106,9 @@
       pierceCap: 5
     }
   }
+  "consumes": {
+        "coolant": {
+            "amount": 1.0
+        }
+    }
 }
